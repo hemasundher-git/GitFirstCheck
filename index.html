@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Webpage with Header and Footer</title>
         <link rel="stylesheet" href="Style.css">
+        <script src="script.js"></script>
 
     </head>
 
@@ -17,10 +18,10 @@
             <nav>
                 <table id="header_table">
                     <tr>
-                        <td><a href="#home">Home</a></td>
-                        <td><a href="#about">About</a></td>
-                        <td><a href="#services">App</a></td>
-                        <td><a href="#contact">Profile</a></td>
+                        <td><a href="#home" onclick="displayText('home')">Home</a></td>
+                        <td><a href="#about" onclick="displayText('about')">About</a></td>
+                        <td><a href="#services" onclick="displayText('servieces')">App</a></td>
+                        <td><a href="#contact" onclick="displayText('contact')">Profile</a></td>
                     </tr>
                 </table>
             </nav>
@@ -28,10 +29,14 @@
 
 
 
-        <center><h2 id="heading1">git check</h2></center>
+        <center><h2 id="heading1">click below button to tell your name</h2></center>
 
+        <button id="button_name" onclick="get_name('Name : ')">Tell your Name</button>
+
+        <input type="text" id="inputTextBox" placeholder="age">
         
-        
+        <!-- <p id="p1">no button clicked</p> -->
+
         <table id="table_body">
 
             <tr>
@@ -39,7 +44,6 @@
                     <p id="table_p">no button clicked</p>
                 </td>
             </tr>
-
 
         </table>
 
