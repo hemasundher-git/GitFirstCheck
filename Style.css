@@ -67,7 +67,7 @@ body {
 
 #table_body{
     background-color: #584990ed;
-    margin: 10% 10%;
+    margin: 10 100;
 }
 
 
@@ -76,3 +76,13 @@ body {
     vertical-align: middle;
     /* align-items: center; */
 }
+
+#inputTextBox {
+ margin:  15 100;
+
+}
+
+#button_name {
+    margin:  15 500;
+   
+   }
